@@ -8,7 +8,7 @@ using UnityEngine.AI;
 // 2. Timer for when chase period ends if player gets away
 // 3. change size of vision cone based on chase vs no chase vs player speed/crouch etc.
 
-public class ChasePlayer : MonoBehaviour
+public class chasePlayer : MonoBehaviour
 {
 
     public Transform player;
@@ -19,7 +19,7 @@ public class ChasePlayer : MonoBehaviour
     public bool hearing = true;
     public bool light_sensory = true;
 
-    private bool isChasing = false;
+    public bool isChasing = false;
     private Vector3 currentTarget;
 
     // Start is called before the first frame update
